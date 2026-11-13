@@ -2,8 +2,8 @@ name: Update Malayalam Playlist
 
 on:
   schedule:
-    # Runs every day at 04:30 UTC (≈ 10:00 AM IST)
-    - cron: "30 4 * * *"
+    # Runs every 4 hours
+    - cron: "0 */4 * * *"
   workflow_dispatch:   # allows manual run from GitHub UI
 
 jobs:
